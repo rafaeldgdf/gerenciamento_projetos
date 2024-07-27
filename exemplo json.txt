@@ -1,0 +1,31 @@
+CRIACAO USUARIO 
+{
+    "nome": "Pedro",
+    "ultimoNome": "Lima",
+    "dtNascimento": "1980-06-01",
+    "email": "pedro.lima@example.com",
+    "centroCusto": "Desenvolvimento",
+    "statusUsuario": true
+}
+
+
+
+CRIACAO EQUIPE 
+{
+    "nome": "Equipe de Desenvolvimento",
+    "descricao": "Equipe responsável pelo desenvolvimento de software",
+    "usuarioMatriculas": ["240001", "240002"]
+}
+
+
+CRIACAO PROJETO 
+{
+    "nome": "Projeto X",
+    "dtInicio": "2024-01-01",
+    "dtTerminoPrevista": "2024-12-31",
+    "orcamento": 100000.00,
+    "descricao": "Este é um projeto de desenvolvimento de software.",
+    "centroCusto": "Desenvolvimento",
+    "idEquipe": 1,
+    "gerenteMatricula": "240001"
+}

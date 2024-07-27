@@ -1,0 +1,146 @@
+.list-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.button-new {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.usuario-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.usuario-info {
+  flex-grow: 1;
+  font-size: 1.2em;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.button-open {
+  background-color: #28a745;
+}
+
+.button-edit {
+  background-color: #007bff;
+}
+
+.button-delete {
+  background-color: #dc3545;
+}
+
+.button-open:hover {
+  background-color: #218838;
+}
+
+.button-edit:hover {
+  background-color: #0056b3;
+}
+
+.button-delete:hover {
+  background-color: #c82333;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container select,
+.search-container input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-container input {
+  flex-grow: 1;
+}
+
+.search-guide-text {
+  text-align: left;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.legend-and-guide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.legend-item.verde {
+  background-color: #d4edda;
+}
+
+.legend-item.vermelho {
+  background-color: #f8d7da;
+}
+
+.legend-text {
+  margin-left: 5px;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-container li.verde {
+  background-color: #d4edda;
+}
+
+.list-container li.vermelho {
+  background-color: #f8d7da;
+}

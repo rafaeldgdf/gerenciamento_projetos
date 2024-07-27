@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #f87902; /* Laranja */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: #ffffff; /* Branco */
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 1em; /* Aumentar o tamanho da fonte */
+  font-weight: bold; /* Deixar a fonte em negrito */
+  font-family: 'Arial', sans-serif; /* Fonte mais legível */
+  text-shadow: 2px 2px 2px #000000; /* Contorno preto */
+}
+
+.navbar li a:hover {
+  background-color: #000000; /* Azul */
+  color: #ffffff; /* Branco */
+}
